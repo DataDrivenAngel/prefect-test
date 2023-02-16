@@ -32,7 +32,7 @@ def agg_data(data):
 
 
 @flow
-def pipe():
+def pipe_2():
     data = get_data()
     agg_data(data)
     
