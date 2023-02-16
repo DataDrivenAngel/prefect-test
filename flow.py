@@ -38,4 +38,4 @@ def pipe():
     
 
 if __name__ == "__main__":
-    pipe()
+    pipe_2()
