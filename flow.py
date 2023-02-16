@@ -26,7 +26,7 @@ def get_data():
     return df
 
 @task
-def agg_data(data):
+def github_agg_data(data):
 
     print(data.max())
 
@@ -34,7 +34,7 @@ def agg_data(data):
 @flow
 def pipe_2():
     data = get_data()
-    agg_data(data)
+    github_agg_data(data)
     
 
 if __name__ == "__main__":
